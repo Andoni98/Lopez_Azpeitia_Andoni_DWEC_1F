@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/lopez-azpeitia-andoni-dwec-1-f",
+            "outputPath": "dist/Lopez_Azpeitia_Andoni_DWEC_1F",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
