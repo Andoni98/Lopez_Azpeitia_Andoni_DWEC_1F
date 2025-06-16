@@ -1,0 +1,17 @@
+<div class=container onsubmit="onSubmit()">
+    <h1>Crear Usuario</h1>
+    <label for="name">Nombre:</label>
+    <input type="text"
+    id="name"
+    name="name"
+    required>
+    <label for="job">Trabajo:</label>
+    <select  id="job"
+    name="job"
+    required>
+        <option *ngFor="let trabajo of trabajos"value="trabajo">
+            {{trabajo}}
+        </option>
+    </select>
+    <button type="submit">Enviar</button>
+</div>
